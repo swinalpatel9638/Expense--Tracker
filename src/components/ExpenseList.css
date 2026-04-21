@@ -1,0 +1,92 @@
+.empty-state {
+  text-align: center;
+  padding: 60px 20px;
+  color: #999;
+}
+
+.empty-state p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.expense-item {
+  background: white;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 16px;
+}
+
+.expense-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.expense-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.expense-category {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.expense-description {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 4px;
+}
+
+.expense-meta {
+  font-size: 12px;
+  color: #999;
+}
+
+.expense-amount {
+  font-size: 20px;
+  font-weight: bold;
+  color: #667eea;
+}
+
+.expense-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-small {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  background: #667eea;
+  color: white;
+}
+
+.btn-small:hover {
+  background: #5568d3;
+}
+
+.btn-small.btn-danger {
+  background: #dc3545;
+}
+
+.btn-small.btn-danger:hover {
+  background: #c82333;
+}
